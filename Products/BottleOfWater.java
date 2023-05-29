@@ -14,20 +14,12 @@ public class BottleOfWater extends Product {
 
     public BottleOfWater(String name, String brand, double price, double volume) {
         super(name, brand, price);
-<<<<<<< HEAD
         this.setVolume(volume);
-=======
-        this.setVolume(0.5);
->>>>>>> origin/main
     }
 
     public BottleOfWater() {
         super();
-<<<<<<< HEAD
-        this.setVolume(0.5);
-=======
         this.volume = 0.5;
->>>>>>> origin/main
     }
 
 
